@@ -16,16 +16,6 @@ Clone o repositório para sua máquina local:
  git clone https://github.com/mnbastos/lua-desafio-biblioteca-utilidades.git
 ```
 
-## Uso
-
-Importe e utilize as funções conforme necessário:
-
-```lua
-local util = require("biblioteca_utilidades")
-
-local resultado = util.somar(10, 5)
-print("Resultado:", resultado)
-```
 
 ## Contribuição
 
