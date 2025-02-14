@@ -10,14 +10,14 @@ function StringUtils.lower(palavra)
     
 end
 
-function StringUtils.length(palavra)
-    return string.length(palavra)
+function StringUtils.compr(palavra)
+    return string.len(palavra)
     
 end
 
-function StringUtils.trim(palavra)
-    return string.trim(palavra)
-    
+function StringUtils.limpar(palavra)
+    local s = string.gsub(palavra, "%s+", "")
+    return s
 end
 
 
